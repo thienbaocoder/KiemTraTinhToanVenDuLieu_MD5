@@ -1,0 +1,21 @@
+UEH - Khoa Công Nghệ Thông Tin Kinh Doanh
+Nhóm: 03
+Mục tiêu: Kiểm tra tính toàn vẹn bằng MD5.
+
+AN NINH THÔNG TIN TRONG NGÂN HÀNG SỐ
+
+Trong bối cảnh chuyển đổi số, an ninh thông tin đóng vai trò quan trọng
+để bảo vệ dữ liệu người dùng. Một trong những phương pháp phổ biến
+là triển khai mã hóa một chiều (hashing).
+
+MD5 (Message Digest Algorithm 5) là một hàm băm mật mã học, tạo ra chuỗi
+128-bit duy nhất cho mỗi dữ liệu đầu vào. Dù chỉ thay đổi một ký tự nhỏ,
+giá trị hash MD5 sẽ thay đổi hoàn toàn, giúp phát hiện giả mạo dữ liệu.
+
+Ứng dụng:
+- Lưu trữ mật khẩu dưới dạng hash thay vì plaintext.
+- Kiểm tra tính toàn vẹn của tập tin khi truyền tải qua mạng.
+- Đảm bảo dữ liệu không bị sửa đổi trong quá trình xử lý.
+
+Kết luận: MD5 tuy không còn an toàn tuyệt đối trước các tấn công va chạm,
+nhưng vẫn thường được sử dụng trong kiểm tra tính toàn vẹn dữ liệu.
